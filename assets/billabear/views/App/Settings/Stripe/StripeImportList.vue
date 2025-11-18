@@ -142,7 +142,7 @@
 <script>
 import axios from "axios";
 import {VueFinalModal} from "vue-final-modal";
-import {mapActions} from "vuex";
+import {mapActions} from 'vuex';
 import CurrencySelect from "../../../../components/app/Forms/CurrencySelect.vue";
 import {Input} from "flowbite-vue";
 

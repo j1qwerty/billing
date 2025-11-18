@@ -108,7 +108,7 @@
 
 <script>
 import axios from "axios";
-import {mapActions, mapState} from "vuex";
+import {mapActions, mapState} from 'vuex';
 import SectionLimits from "./Parts/SectionLimits.vue";
 import SectionFeatures from "./Parts/SectionFeatures.vue";
 import SectionPrices from "./Parts/SectionPrices.vue";

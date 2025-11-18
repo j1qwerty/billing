@@ -19,7 +19,7 @@
 <script>
 import {stripeservice} from "../../../../services/stripeservice";
 import {billingservice} from "../../../../services/billingservice";
-import {mapActions} from "vuex";
+import {mapActions} from 'vuex';
 
 export default {
   name: "StripeTokenForm",

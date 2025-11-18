@@ -189,7 +189,7 @@
 </template>
 
 <script>
-import {mapActions, mapState} from "vuex";
+import {mapActions, mapState} from 'vuex';
 import CurrencyInput from "../../../../components/app/Forms/CurrencyInput.vue";
 import CurrencySelect from "../../../../components/app/Forms/CurrencySelect.vue";
 import {Toggle} from "flowbite-vue";

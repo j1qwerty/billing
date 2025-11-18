@@ -199,7 +199,7 @@
 import axios from "axios";
 import currency from "currency.js";
 import WorldMap from "../../components/app/Graphs/WorldMap.vue";
-import {mapState} from "vuex";
+import {mapState} from 'vuex';
 import OnboardingMenu from "../../components/app/Onboarding/OnboardingMenu.vue";
 import {TabGroup, Tab, TabList, TabPanel, TabPanels} from "@headlessui/vue";
 

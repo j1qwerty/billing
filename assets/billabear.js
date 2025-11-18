@@ -25,6 +25,7 @@ import App from "./billabear/views/App";
 
 import {router} from "./billabear/helpers/router"
 import {pinia} from './billabear/store'
+import vuexShim from 'vuex'
 import {setupAxiosInterceptors} from "./billabear/services/interceptors"
 import { createApp } from "vue";
 import { createVfm } from 'vue-final-modal'
@@ -79,6 +80,7 @@ const vfm = createVfm()
 billabear.use(router);
 billabear.use(i18n);
 billabear.use(pinia);
+billabear.use(vuexShim);
 billabear.use(ParthenonMenu);
 billabear.use(ParthenonUI);
 billabear.use(VueFlow);

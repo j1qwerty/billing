@@ -33,7 +33,7 @@
 
 <script>
 import axios from "axios";
-import {mapActions, mapState} from "vuex";
+import {mapActions, mapState} from 'vuex';
 import MenuDesktop from "../../components/app/Layout/MenuDesktop.vue";
 import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue'
 import TopMenu from "../../components/app/Layout/TopMenu.vue";

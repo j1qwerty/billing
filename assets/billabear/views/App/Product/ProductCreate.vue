@@ -75,7 +75,7 @@
 <script>
 import axios from "axios";
 import {Toggle} from "flowbite-vue";
-import {mapActions} from "vuex";
+import {mapActions} from 'vuex';
 
 export default {
   name: "productCreate",

@@ -71,7 +71,7 @@
 
 <script>
 import {userservice} from "../../../services/userservice";
-import {mapActions} from "vuex";
+import {mapActions} from 'vuex';
 
 export default {
   name: "UserSettings",

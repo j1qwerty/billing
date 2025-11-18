@@ -10,15 +10,31 @@
 ###< symfony/framework-bundle ###
 
 # dev
-
 .idea
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+*.iml
+Thumbs.db
+
 /docker/nginx/logs/
 /docker/database/data/
+/docker/elasticsearch/data/
+
 ###> symfony/webpack-encore-bundle ###
 /node_modules/
 /public/build/
 npm-debug.log
 yarn-error.log
+package-lock.json
+.eslintcache
+.npm
 ###< symfony/webpack-encore-bundle ###
 
 ###> friends-of-behat/symfony-extension ###
@@ -32,10 +48,44 @@ yarn-error.log
 
 yarn.lock
 symfony.lock
+
 ###> phpunit/phpunit ###
 /phpunit.xml
 .phpunit.result.cache
 .phpunit.cache
 ###< phpunit/phpunit ###
 
+# Testing & Coverage
+/coverage/
+.coverage
+*.coverage
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.editorconfig
+
+# Build & Artifacts
+dist/
+build/
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+temp/
+.cache/
+.grunt/
+
+# Docker
+docker/database/data/
+docker/elasticsearch/data/
+docker/nginx/logs/
+
+# Project specific
 /src/Custom/

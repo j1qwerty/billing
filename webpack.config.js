@@ -22,6 +22,9 @@ Encore
     .enableSingleRuntimeChunk()
     .cleanupOutputBeforeBuild()
     .enableSourceMaps(!Encore.isProduction())
+    .addAliases({
+        'vuex': path.resolve(__dirname, 'assets/billabear/helpers/vuexShim.js'),
+    })
     .enableVersioning(Encore.isProduction())
     .enableSassLoader(sassOptions => {
     }, {

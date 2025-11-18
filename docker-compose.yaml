@@ -71,7 +71,7 @@ services:
     depends_on:
       - php-fpm
     ports:
-      - "80:80"
+      - "7847:80"
     networks:
       - billabear
 

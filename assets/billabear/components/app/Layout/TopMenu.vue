@@ -51,7 +51,7 @@
 
 <script>
 import {Menu, MenuButton, MenuItems, MenuItem} from "@headlessui/vue";
-import {mapState} from "vuex";
+import {mapState} from 'vuex';
 
 export default {
   name: "TopMenu",

@@ -5,7 +5,7 @@
 <script>
 import RoleOnlyView from "../RoleOnlyView.vue";
 import {Select} from "flowbite-vue";
-import {mapActions, mapState} from "vuex";
+import {mapActions, mapState} from 'vuex';
 
 export default {
   name: "Sidebar",
