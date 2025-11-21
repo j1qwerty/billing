@@ -3,13 +3,9 @@
 declare(strict_types=1);
 
 /*
- * Copyright Humbly Arrogant Software Limited 2023.
+ * Copyright Iain Cambridge 2023-2025.
  *
- * Use of this software is governed by the Business Source License included in the LICENSE.md file and at https://github.com/BillaBear/billabear/blob/main/LICENSE.
- *
- * Change Date: DD.MM.2026 ( 3 years after 1.1.0 release )
- *
- * On the date above, in accordance with the Business Source License, use of this software will be governed by the open source license specified in the LICENSE.md file.
+ * Use of this software is governed by the Fair Core License, Version 1.0, ALv2 Future License included in the LICENSE.md file and at https://github.com/BillaBear/billabear/blob/main/LICENSE.
  */
 
 namespace DoctrineMigrations;
