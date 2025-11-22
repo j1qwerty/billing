@@ -181,6 +181,10 @@ To start integrating with BillaBear you can use the REST API.
 
 To get started using this repository you can get up and running using Docker and Docker Compose.
 
+### Host on Hostinger
+
+[![Deploy on Hostinger](https://assets.hostinger.com/vps/deploy.svg)](https://www.hostinger.com/vps/docker-hosting?compose_url=https://github.com/billabear/billabear/)
+
 ### Host on DigitalOcean
 
 You can deploy to DigitalOcean with just a click of the button below and it'll deploy using the DigitalOcean App Platform.

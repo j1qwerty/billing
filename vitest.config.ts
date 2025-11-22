@@ -8,6 +8,7 @@ export default defineConfig({
     resolve: {
         alias: {
             '@': path.resolve(__dirname, './assets'),
+            '~': path.resolve(__dirname, './assets'),
         },
     },
     optimizeDeps: {
@@ -15,11 +16,13 @@ export default defineConfig({
     },
     test: {
         include: ['assets/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
+        exclude: ['**/node_modules/**', '**/dist/**', '**/build/**'],
         clearMocks: true,
         environment: 'jsdom',
-       // setupFiles: ['./vitest.setup.ts'],
+        setupFiles: ['./vitest.setup.ts'],
         transformMode: {
             web: [/\.[jt]sx$/],
         },
+        globals: true,
     },
 })

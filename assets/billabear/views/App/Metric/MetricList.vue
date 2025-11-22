@@ -187,11 +187,11 @@ const loadMetrics = async () => {
     let mode = 'normal'
     let urlString = '/app/metric/list?'
 
-    if (route.query.last_key !== undefined) {
+    if (route.query && route.query.last_key !== undefined) {
       urlString += '&last_key=' + encodeURIComponent(route.query.last_key)
       show_back.value = true
       mode = 'normal'
-    } else if (route.query.first_key !== undefined) {
+    } else if (route.query && route.query.first_key !== undefined) {
       urlString += '&first_key=' + encodeURIComponent(route.query.first_key)
       has_more.value = true
       mode = 'first_key'
